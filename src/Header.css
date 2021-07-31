@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid whitesmoke;
+    background-image: url("https://www.businessknowhow.com/uploads/find-web-developer.jpg");
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__left >img {
+    object-fit: contain;
+    height:80px;
+    margin-left: 5px;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+.header__middle > .MuiSvgIcon-root {
+    color: grey;
+}
+
+.header__middle > input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: medium;
+    padding: 10px;
+}
+
+.header__right{
+    display: flex;
+    padding: 20px;
+}
